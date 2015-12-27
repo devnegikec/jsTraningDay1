@@ -4,7 +4,7 @@ function AddAsyncUsingPromise(x,y){
                   
     setTimeout(function(){
         if(!x || !y){
-           reject('invalide arguments');
+           reject('invalide arguments'));
         }else{ 
                 var result = x +y;
                 console.log("[SP] returning result");
